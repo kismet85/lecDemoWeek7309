@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    tools {
+        maven "3.9.9"
+    }
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'docker'
         DOCKERHUB_REPO = 'kismet85/tests'
