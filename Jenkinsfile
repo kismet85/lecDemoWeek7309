@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'docker'
-        DOCKERHUB_REPO = 'kismet85/devopschain'
+        DOCKERHUB_REPO = 'kismet85/tests'
         DOCKER_IMAGE_TAG = 'ver2'
     }
     
